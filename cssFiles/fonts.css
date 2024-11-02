@@ -1,0 +1,36 @@
+@font-face {
+    font-family: FBold ;
+    src: url(../Fonts/GothamBold.ttf);
+}
+@font-face {
+    font-family: FBI ;
+    src: url(../Fonts/GothamBoldItalic.ttf);
+}
+@font-face {
+    font-family: FMedium ;
+    src: url(../Fonts/GothamMedium.ttf);
+}
+@font-face {
+    font-family: FLight ;
+    src: url(../Fonts/GothamLight.ttf);
+}
+@font-face {
+    font-family: FBook ;
+    src: url(../Fonts/GothamBook.ttf);
+}
+@font-face {
+    font-family: FBoI ;
+    src: url(../Fonts/GothamBookItalic.ttf);
+}
+@font-face {
+    font-family: FMI ;
+    src: url(../Fonts/GothamMediumItalic.ttf);
+}
+@font-face {
+    font-family: FLI ;
+    src: url(../Fonts/GothamLightItalic.ttf);
+}
+@font-face {
+    font-family: FM1 ;
+    src: url(../Fonts/GothamMedium_1.ttf);
+}

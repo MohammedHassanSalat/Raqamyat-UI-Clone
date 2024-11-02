@@ -1,0 +1,645 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+@import url(bootstrap.min.css);
+@import url(fonts.css);
+
+img {
+    width: 100%;
+}
+
+
+hr {
+    opacity: .2;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input {
+    margin-bottom: 0;
+}
+
+body {
+    font-family: FMedium, Arial, sans-serif;
+    background-color: #F0F6FF;
+}
+
+
+/* header */
+header {
+    background-color: transparent;
+    padding: 15px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header .img {
+    margin-right: 35%;
+}
+
+header .nav-link {
+    color: #656565;
+    letter-spacing: -1.04px;
+    font-family: FLight;
+    font-size: 19px;
+    position: relative;
+}
+
+header .nav-link::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background-color: #EF0220;
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    transition: all 0.3s ease; 
+}
+
+header .nav-link:hover::after {
+    width: 100%; 
+}
+
+header .nav-link:hover {
+    color: #0093DE;
+    font-family: FMedium;
+}
+
+
+header li .home a {
+    color: #027AB7;
+    font-family: FMedium;
+    font-size: 19px;
+    letter-spacing: -1.04px;
+}
+
+header li .home:hover a {
+    color: #027AB7;
+}
+
+header .button {
+    padding: 5px 20px;
+    letter-spacing: -0.47px;
+    background: transparent linear-gradient(252deg, #3c6faebe 15%, #3c57ae 100%) 0% 0% no-repeat padding-box;
+    color: white;
+    font-family: FLight;
+    border: 0;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+
+/* header */
+
+
+
+
+/* sec1 */
+.sec1 {
+    background-image: url(../imgs/\(lines\).svg) ;
+    background-position: top ;
+    height: 120vh;
+}
+
+.sec1 .item-text {
+    width: 90%;
+}
+
+.sec1 .item-img {
+    width: 90%;
+}
+
+.sec1 .sp1 {
+    color: #0093DE;
+    position: relative;
+}
+
+.sec1 .sp1 img {
+    position: absolute;
+    width: 110%;
+    bottom: -30px;
+    right: -10px;
+}
+
+.sec1 .sp2 {
+    color: #0093DE;
+    position: relative;
+}
+
+.sec1 .sp2 img {
+    width: 90%;
+    position: absolute;
+    top: -10px;
+    right: 0;
+}
+
+.sec1 .sp3 {
+    color: #0093DE;
+}
+
+.sec1 .item-text h1 {
+    font-family: FBold;
+    font-size: 60px;
+}
+
+.sec1 .item-text p {
+    margin-top: 30px;
+    font-family: FMedium;
+    width: 70%;
+}
+
+.sec1 .button {
+    padding: 10px 25px;
+    letter-spacing: -0.47px;
+    background: transparent linear-gradient(252deg, #3c6faebe 15%, #3c57ae 100%) 0% 0% no-repeat padding-box;
+    color: white;
+    font-family: FLight;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 10px 10px 35px #0093DE80;
+    margin-top: 20px;
+}
+
+.sec1 .button i {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+
+/* sec1 */
+
+
+/* sec2 */
+
+.sec2 .card1 {
+    background-color: white;
+    border: 0;
+    border-radius: 0 40px 0 0;
+    padding: 20px 0px 20px 110px;
+    margin-right: 60%;
+}
+
+.sec2 .card1 .img {
+    width: 70%;
+}
+
+.sec2 .card2 {
+    background-color: white;
+    border: 0;
+    border-radius: 0 50px 50px 0;
+    padding: 0px 0px 100px 110px;
+    margin-right: 15%;
+}
+
+.sec2 .card2 .item-img {
+    margin-left: 18%;
+}
+
+.sec2 .card2 .item-img .img {
+    width: 83%;
+}
+
+.sec2 .card2 .item-img p {
+    letter-spacing: 0px;
+    color: #2a2a2ab1;
+    width: 75%;
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 1.7;
+    font-family: FMI;
+}
+
+
+.sec2 .card2 .item-text {
+    margin-top: 15%;
+    padding-right: 10%;
+}
+
+.sec2 .card2 .item-text h3 {
+    font-family: FBold;
+    letter-spacing: -2.02px;
+}
+
+.sec2 .card2 .item-text .p1 {
+    letter-spacing: 0px;
+    margin-top: 20px;
+    color: #2a2a2ab1;
+    font-size: 14px;
+}
+
+.sec2 .sp {
+    position: relative;
+}
+
+.sec2 .sp img {
+    position: absolute;
+    top: 20px;
+    right: -1px;
+    z-index: 1;
+}
+
+
+
+
+/* sec2 */
+
+
+
+/* sec3 */
+.sec3 {
+    margin: 10% 0;
+}
+
+.sec3 .container {
+    width: 70%;
+}
+
+
+.sec3 .item-text .text1 h3 {
+    font-family: FBold;
+    font-size: 35px;
+}
+
+
+.sec3 .item-text .sp {
+    position: relative;
+}
+
+.sec3 .item-text .sp img {
+    position: absolute;
+    top: 20px;
+    right: -1px;
+    z-index: 1;
+}
+
+.sec3 .item-text p {
+    color: #2a2a2a;
+    font-size: 15px;
+    width: 90%;
+}
+
+.sec3 .item-cards {
+    margin-top: 5%;
+}
+
+.sec3 .item-cards .card1 {
+    padding: 50px 40px;
+    border: 0;
+    background-color: white;
+    border-radius: 40px 20px;
+    background: transparent url(../imgs/Mask\ Group\ 2.svg) 0% 0% no-repeat padding-box;
+    box-shadow: -10px 10px 50px #0093DE1A;
+}
+
+.sec3 .item-cards img {
+    width: 15% ;
+}
+
+.sec3 .item-cards .img1 img {
+    width: 10% ;
+}
+
+.sec3 .item-cards .card3 {
+    padding: 50px 40px 115px 40px;
+}
+
+.sec3 .item-cards .card1 .p1 {
+    color: #0093DE;
+    margin-top: 10px;
+    font-family: FBold;
+    font-size: 17px;
+}
+
+.sec3 .item-cards .card1 .p2 {
+    color: #2a2a2a;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+/* sec3 */
+
+
+/* sec4 */
+.sec4 {
+    background-image: url(../imgs/shapes.svg);
+    background-position: right;
+    background-size: cover;
+    text-align: center;
+    background-color: white;
+    padding: 100px 0;
+}
+
+.sec4 .item-head h3 {
+    font-family: FBold;
+    font-size: 30px;
+}
+
+.sec4 .item-head .sp {
+    position: relative;
+}
+
+.sec4 .item-head .sp img {
+    position: absolute;
+    top: 20px;
+    right: -1px;
+    z-index: 1;
+}
+
+.sec4 .item-cards {
+    margin-top: 30px ;
+}
+
+.sec4 .item-cards img {
+    width: 15%;
+}
+
+.sec4 .item-cards .img1 img {
+    width: 13%;
+}
+
+.sec4 .item-cards .card1 {
+    padding: 20px 5px;
+    border: 0;
+    background: transparent linear-gradient(304deg, #FFFFFF 0%, #EFFAFF 100%) 0% 0% no-repeat padding-box;
+    box-shadow: -10px 10px 50px #0093DE1A;
+    border-radius: 50px 25px;
+}
+
+.sec4 .item-cards {
+    position: relative;
+}
+
+.sec4 .item-cards .card2 {
+    position: absolute;
+    top: 60px;
+}
+
+
+.sec4 .container {
+    width: 70%;
+}
+
+.sec4 .p1 {
+    margin-top: 5px;
+    color: #2a2a2a;
+    font-size: 15px;
+}
+
+.sec4 .p2 {
+    margin-top: 5px;
+    color: #2a2a2ab1;
+    font-size: 14px;
+}
+
+.sec4 .button {
+    padding: 10px 25px;
+    letter-spacing: -0.47px;
+    background: transparent linear-gradient(252deg, #3c6faebe 15%, #3c57ae 100%) 0% 0% no-repeat padding-box;
+    color: white;
+    font-family: FLight;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 10px 10px 35px #0093DE80;
+    margin-top: 20px;
+}
+
+.sec4 .button i {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+
+
+/* sec4 */
+
+
+/* sec5 */
+.sec5 {
+    padding: 100px 0;
+}
+
+.sec5 .item-head h3 {
+    font-family: FBold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sec5 .item-head .sp {
+    position: relative;
+}
+
+.sec5 .item-head .sp img {
+    position: absolute;
+    top: 20px;
+    right: -1px;
+    z-index: 1;
+}
+
+.sec5 .item-cards {
+    margin-top: 30px ;
+}
+
+.sec5 .item-cards .card1 {
+    background: transparent linear-gradient(334deg, #FFFFFF 0%, #EFFAFF 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 50px #0093DE17;
+    border-radius: 25px;
+}
+
+.sec5 .item-cards .card1 .text {
+    padding: 20px;
+}
+
+.sec5 .item-cards .card1 .text .p1 {
+    color: #2a2a2ab1;
+    font-size: 13px;
+    letter-spacing: 0px;
+}
+
+.sec5 .item-cards .card1 .text .p2 {
+    color: #2a2a2a;
+    font-size: 23px;
+    font-family: FBold;
+    padding-top: 10px;
+}
+
+.sec5 .item-cards .card1 .text .p3 {
+    color: #2a2a2ab1;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.sec5 .item-cards .card1 .text .last {
+    padding-top: 10px;
+}
+
+.sec5 .item-cards .card1 .text .last .lp1 {
+    color: #2a2a2ab1;
+    font-size: 12px;
+}
+
+.sec5 .item-cards .card1 .text .last .lp2 {
+    color: #2a2a2a;
+    font-size: 14px;
+}
+
+.sec5 .item-cards .card1 .text .last a {
+    font-size: 14px;
+    margin-left: 40%;
+}
+
+.sec5 .button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.sec5 .button .btnn1 {
+    padding: 10px 25px;
+    letter-spacing: -0.47px;
+    background: transparent linear-gradient(252deg, #3c6faebe 15%, #3c57ae 100%) 0% 0% no-repeat padding-box;
+    color: white;
+    font-family: FLight;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 10px 10px 35px #0093DE80;
+    margin-top: 20px;
+}
+
+.sec5 .button i {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+/* sec5 */
+
+
+/* sec6 */
+
+.sec6 .card1 {
+    padding:  50px 180px;
+    background: #F0F6FF 0% 0% no-repeat padding-box;
+    box-shadow: 10px -10px 50px #0093DE17;
+    background-image: url(../imgs/shapes.svg);
+    background-size: cover;
+    background-position: unset;
+    margin: 0 170px;
+}
+
+.sec6 p {
+    font-family: FBold;
+    font-size: 20px;
+}
+
+.sec6 form {
+    position: relative;
+}
+
+.sec6 form input {
+    padding: 18px 25px;
+    width: 100%;
+    border-radius: 40px;
+    border: 0;
+    box-shadow: 20px 37px 102px rgba(0, 0, 0, 0.098);
+    outline: none;
+}
+
+.sec6 form input::placeholder {
+    color: #8c8c8cd2;
+    font-size: 15px;
+    border: 0;
+}
+
+.sec6 form .icon {
+    position: absolute;
+    top: 15%;
+    left: 67%;
+}
+
+.sec6 .button {
+    padding: 10px 25px;
+    letter-spacing: -0.47px;
+    background: transparent linear-gradient(252deg, #3c6faebe 15%, #3c57ae 100%) 0% 0% no-repeat padding-box;
+    color: white;
+    font-family: FLight;
+    border: 0;
+    border-radius: 30px;
+}
+
+
+
+/* sec6 */
+
+
+
+/* footer */
+footer {
+    background-color: white;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    color: #2a2a2ab1;
+}
+
+footer .img img {
+    width: 30%;
+}
+
+footer .icons img {
+    width: 70%;
+}
+
+footer .p1 {
+    margin-left: 30px;
+    color: #2a2a2a;
+}
+
+footer .list {
+    margin-top: 15px;
+}
+
+footer .icons {
+    margin-top: 15px;
+}
+
+
+footer .sp {
+    position: relative;
+}
+
+footer .sp img {
+    position: absolute;
+    top: 10px;
+    right: -1px;
+    z-index: 1;
+}
+
+footer .list li {
+    margin-top: 7px;
+}
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
