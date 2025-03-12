@@ -637,9 +637,253 @@ footer .list li {
 
 
 
+@media (max-width: 576px) {
+    /* header */
+    header .img {
+        margin-right: 0; /* Remove large margin on small screens */
+    }
+    header .button {
+        font-size: 13px; /* Slightly smaller button text */
+        padding: 5px 15px;
+    }
 
+    header nav .n1 {
+        background-color: #0093DE;
+        padding: 25px;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
 
+    header nav .img {
+        width: 35%;
+    }
 
+    header nav .button {
+        margin-top: 2px;
+    }
 
+    /* sec1 */
+    .sec1 {
+        height: auto; /* Adjust height based on content */
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .sec1 .items .row {
+        flex-direction: column; /* Stack text and image vertically */
+    }
+    .sec1 .item-text,
+    .sec1 .item-img {
+        width: 100%; /* Full width on small screens */
+    }
+    .sec1 .item-text h1 {
+        font-size: 30px; /* Reduce heading size */
+    }
+    .sec1 .item-text p {
+        width: 100%; /* Full width paragraph */
+        font-size: 14px;
+    }
+    .sec1 .button {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+    .sec1 .sp1 img,
+    .sec1 .sp2 img {
+        width: 100%; /* Ensure decorative images scale */
+        bottom: -15px; /* Adjust positioning */
+    }
 
+    /* sec2 */
+    .sec2 .card1 {
+        margin-right: 0; /* Remove large right margin */
+        padding: 20px; /* Consistent padding */
+    }
+    .sec2 .card2 {
+        margin-right: 0;
+        padding: 20px;
+    }
+    .sec2 .card2 .item-img {
+        margin-left: 0; /* Remove left margin */
+    }
+    .sec2 .card2 .item-text {
+        padding-right: 0;
+        margin-top: 20px; /* Space above text */
+    }
+    .sec2 .card2 .item-img p {
+        width: 100%; /* Full width text */
+    }
+
+    /* sec3 */
+    .sec3 .container {
+        width: 90%; /* Wider container for better fit */
+    }
+    .sec3 .item-text .text1 h3 {
+        font-size: 25px; /* Smaller heading */
+    }
+    .sec3 .item-text p {
+        width: 100%;
+        font-size: 14px;
+    }
+    .sec3 .item-cards .card1 {
+        padding: 30px 20px; /* Adjust padding */
+    }
+    .sec3 .item-cards .card3 {
+        padding: 30px 20px 50px 20px; /* Adjust padding */
+    }
+
+    /* sec4 */
+    .sec4 {
+        padding: 50px 0; /* Reduce vertical padding */
+    }
+    .sec4 .container {
+        width: 90%;
+    }
+    .sec4 .item-head h3 {
+        font-size: 25px;
+    }
+    .sec4 .item-cards .card1 {
+        margin-bottom: 20px; /* Space between stacked cards */
+    }
+    .sec4 .item-cards .card2 {
+        position: static; /* Remove absolute positioning */
+        margin-top: 0;
+    }
+
+    /* sec5 */
+    .sec5 {
+        padding: 50px 0; /* Reduce padding */
+    }
+    .sec5 .item-head h3 {
+        font-size: 25px;
+    }
+    .sec5 .item-cards .card1 .text .p2 {
+        font-size: 18px; /* Smaller heading */
+    }
+    .sec5 .item-cards .card1 .text .last a {
+        margin-left: 0;
+        display: block;
+        text-align: center; /* Center link */
+    }
+
+    /* sec6 */
+    .sec6 .card1 {
+        padding: 30px 20px; /* Reduce padding */
+        margin: 0 20px; /* Adjust margin */
+    }
+    .sec6 p {
+        font-size: 16px;
+        text-align: center; /* Center text */
+    }
+    .sec6 form {
+        display: flex;
+        flex-direction: column; /* Stack input and button */
+        align-items: center;
+    }
+    .sec6 form input {
+        width: 100%;
+        margin-bottom: 10px; /* Space below input */
+    }
+    .sec6 form .icon {
+        position: static; /* Remove absolute positioning */
+    }
+    .sec6 .button {
+        width: 100%; /* Full width button */
+        text-align: center;
+    }
+
+    /* footer */
+    footer .img img {
+        width: 50%; /* Slightly larger logo */
+    }
+    footer .icons img {
+        width: 30px; /* Consistent icon size */
+    }
+    footer .p1 {
+        margin-left: 0;
+        text-align: center; /* Center heading */
+    }
+    footer .list {
+        text-align: center; /* Center list items */
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1024px) {
+    /* header */
+    header .img {
+        margin-right: 5px; /* Remove large margin on small screens */
+        width: 10%;
+    }
+    header .button {
+        font-size: 13px; /* Slightly smaller button text */
+        padding: 5px 15px;
+    }
+
+    header nav .n1 {
+        background-color: #0093DE;
+        padding: 25px;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+
+    header nav .button {
+        margin-top: 2px;
+    }
+
+    /* sec1 */
+    .sec1 .item-text h1 {
+        font-size: 40px; /* Slightly smaller heading */
+    }
+    .sec1 .item-text p {
+        width: 80%; /* Slightly narrower paragraph */
+    }
+    .sec1 {
+        height: auto;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+
+    /* sec2 */
+    .sec2 .card1 {
+        margin-right: 10%; /* Reduce margin */
+    }
+    .sec2 .card2 {
+        margin-right: 5%;
+        padding: 20px 10px;
+    }
+    .sec2 .card2 .item-img {
+        margin-left: 5%; /* Slight margin */
+    }
+
+    /* sec3 */
+    .sec3 .container {
+        width: 80%;
+    }
+
+    /* sec4 */
+    .sec4 .container {
+        width: 80%;
+    }
+    .sec4 .item-cards .card2 {
+        position: static; /* Remove absolute positioning */
+        margin-top: 20px;
+    }
+
+    /* sec6 */
+    .sec6 .card1 {
+        padding: 40px 50px;
+        margin: 0 50px; /* Adjust margin */
+    }
+}
+
+@media (width:1024px) {
+    header nav .n1 {
+        background-color: transparent;
+        padding: 0px;
+        border-radius: 0px;
+    }
+
+    header nav .button {
+        margin-top: 0px;
+    }
+}
 
